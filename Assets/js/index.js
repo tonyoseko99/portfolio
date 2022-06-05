@@ -1,18 +1,24 @@
 // fixed top navbar
 document.getElementById("navbar").style.position = "fixed";
 
+// javascript download button
+$(document).ready(function(){
+    $("#download").click(function(){
+      alert("Document not found. Please come back later.");
+    });
+  });
+
 //menu bar in uppercase
-let nav = document.getElementsByClassName("navbar-li");
-navMenu = []
-function navbar(nav){
-    for (item in nav){
-        navMenu.push(item)
-        console.log(navMenu)
-    }
+$(document).ready(function(){
+    $(".navbar-li").hover(function(){
+      $(this).css("text-transform", "uppercase");
+      }, function(){
+      $(this).css("text-transform", "none");
+    });
+  });
 
-}
-navbar()
 
+// change the opacity of the cards on hover
 $(document).ready(function(){
     $("#p1").hover(function(){
       $(this).css("opacity", "0.9");
