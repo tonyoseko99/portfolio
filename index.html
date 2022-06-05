@@ -95,30 +95,49 @@
     <footer class="footer">
         <div class="address">
             <ul>
-                <li><i class="far fa-envelope"></i>&nbsp;&nbsp;43844-00100 Nairobi, Kenya</li>
+                <li><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;43844-00100 Nairobi, Kenya</li>
                 <li><i class="far fa-envelope"></i>&nbsp;&nbsp;tonnyseko@gmail.com</li>
             </ul>
-            <span class="social">
+            <div class="social">
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href=""><i class="fab fa-linkedin"></i></a>
                 <a href=""><i class="fab fa-github"></i></a>
-            </span>
-
+            </div>
         </div>
 
         <div class="contact">
             <h2>Contact Me</h2>
             <div class="contact-me">
                 <form action="/action_page.php">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname" value="John"><br>
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-                    <label for="message"></label>
-                    <input type="text" id="message" name="message" value="Your Message"><br><br>
-                    <button><input type="submit" value="Submit"></button>
-                    
-                    </form> 
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="fname">First Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname"> Last Name</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                      <input type="submit" value="Submit">
+                    </div>
+                </form>
             </div>
 
         </div>

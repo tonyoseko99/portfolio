@@ -185,13 +185,60 @@ main{
 
 .footer{
     background: #B5ADAD;
-    padding: 70px;
+    padding: 30px 0 30px 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
+.footer .address{
+    font-size: 28px;
+}
+
 .footer ul{
     list-style-type: none;
 }
+
+.footer .social{
+    margin: 0 0 0 50px;
+}
+
+.footer .social > a{
+    padding: 10px;
+    color: black;
+}
+
+.footer .contact h2{
+    font-size: 40px;
+}
+
+.footer .contact-me > form > input{
+    font-size: 18px;
+}
+
+.footer .contact-me{
+    margin-right: 300px;
+}
+
+.contact-me input[type=text], select, textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #06091D;
+    color: white;
+    font-size: 18px;
+  }
+
+  .contact-me input[type=submit] {
+    background-color: #E53755;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+  }
