@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #06091D;
+}
+
+/* header section */
+
+header{
+    margin: 50px 200px 0 300px;
+}
+
+.navbar{
+    width: 850px;
+    height: 47px;
+    float: right;
+}
+
+header .navbar > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header .navbar > ul > li{
+    list-style-type: none;
+    border-right: 1px solid white;
+}
+
+header a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #E53755;
+}
+
+header #download-cv{
+    border-right: none;
+}
+
+header #download-cv > button{
+    background-color: #E53755;
+    border: none;
+    border-top-right-radius: 20px;
+    padding: 5px;
+}
+
+header #download-cv > button > a{
+    color: white;
+    font-size: 20px;
+}
+
+header #download-cv > button > a:hover{
+    color: black;
+    
+}
+
+/* profile section */
+.profile{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 10px 0;
+}
+
+.profile img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 300px;
+}
+
+
+/* main section */
+main{
+    margin: 100px 300px ;
+}
+
+/* About section */
+.about{
+    color: white;
+}
+
+.about .mission{
+    width: 467px;
+    height: 189px;
+    font-size: 50px;
+    padding: 0 0 60px 0;
+}
+
+.about .mission-info{
+    font-size: 24px;
+    display: flex;
+    font-weight: lighter;
+}
+
+.about .mission-info > p{
+    width: 550px;
+    height: 285px;
+    padding: 5px 30px 0 0;
+}
