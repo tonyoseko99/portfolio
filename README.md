@@ -1,7 +1,7 @@
 # portfolio
 A site designed to showcase my skills, goals, and accomplishments.
 
-![screenshot](./Assets/images/screenshot.png)
+![screenshot](Assets/images/screenshot.png)
 
 ## Table of Contents
 ---------------------
@@ -26,7 +26,6 @@ A site designed to showcase my skills, goals, and accomplishments.
   
 ## Contact
   * Reach out to tonnyseko@gmail.com for requests to contribute on the project
-  * project link https://github.com/tonyoseko/Quick-Movers-Website
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
