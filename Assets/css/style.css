@@ -1,5 +1,6 @@
 *{
     font-family: 'Gentium Plus', serif;
+    color: white;
 }
 body{
     margin: 0;
@@ -111,7 +112,7 @@ header #download-cv > button > a:hover{
 
 /* main section */
 main{
-    margin: 100px 300px 0 500px;
+    margin: 100px 300px 0 400px;
 }
 
 /* About section */
@@ -158,6 +159,25 @@ main{
 }
 
 /* skills section */
+.skills-section{
+    color: white;
+}
+
+.skills-section h2{
+    font-size: 40px;
+    color: #B5ADAD;
+}
+
 .skills{
-    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills h2{
+    color: #E53755;
+}
+
+.skills .front-end ul{
+    list-style-type: none;
+    font-size: 28px;
 }
