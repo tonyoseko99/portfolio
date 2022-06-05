@@ -1,6 +1,5 @@
 *{
     font-family: 'Gentium Plus', serif;
-    color: white;
 }
 body{
     margin: 0;
@@ -180,4 +179,11 @@ main{
 .skills .front-end ul{
     list-style-type: none;
     font-size: 28px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
