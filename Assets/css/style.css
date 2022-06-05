@@ -10,14 +10,13 @@ body{
 /* header section */
 
 header{
-    margin: 0px 200px 0 300px;
+    margin: 0 200px 0 700px;
 }
 
 .navbar{
     width: 850px;
     height: 100px;
     overflow: hidden;
-    float: right;
 }
 
 header .navbar > ul{
@@ -25,9 +24,10 @@ header .navbar > ul{
     justify-content: space-between;
 }
 
-header .navbar > ul > li{
+ .navbar > ul > li{
     list-style-type: none;
     border-right: 1px solid white;
+    
     
 }
 
@@ -36,6 +36,7 @@ header a{
     text-decoration: none;
     color: white;
     padding: 10px;
+    
 }
 
 header a:hover{
@@ -111,13 +112,12 @@ header #download-cv > button > a:hover{
 
 /* main section */
 main{
-    margin: 100px 300px 0 400px;
+    margin: 0 200px 0 200px;
 }
 
 /* About section */
 .about{
     height: 100vh;
-    margin: auto;
     color: white;
     padding-top: 100px;
     margin-top: -100px;
@@ -161,7 +161,8 @@ main{
 /* skills section */
 .skills-section{
     color: white;
-    margin-top: -100px;
+    height: 70vh;
+    padding: 50px 0;
 }
 
 .skills-section h2{

@@ -10,25 +10,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/327b6324f1.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
     <!--header section-->
     <header>
         <!--Navigation bar-->
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <ul>
-                <li class="navbar-li"><a href="" id="home">home</a></li>
-                <li class="navbar-li"><a href="">about</a></li>
-                <li class="navbar-li"><a href="">skills</a></li>
-                <li class="navbar-li"><a href="">contact Me</a></li>
+                <li class="navbar-li"><a href="#profile">home</a></li>
+                <li class="navbar-li"><a href="#about">about</a></li>
+                <li class="navbar-li"><a href="#skills">skills</a></li>
+                <li class="navbar-li"><a href="#contact">contact Me</a></li>
                 <li id="download-cv">
-                    <button><a href="">Download CV</a></button>
+                    <button id="download" onclick="download()"><a href="">Download CV</a></button>
                 </li>
             </ul>
         </nav>
-
+    </header>
+    <main>
         <!--profile section-->
-        <div class="profile">
+        <div class="profile" id="profile">
             <img src="./Assets/images/portfolio.png" alt="tonny.png">
             <div class="header-info">
                 <h2 id="h2-name">My Name is</h1>
@@ -38,12 +40,8 @@
             
         </div>
 
-    </header>
-
-    <main>
-
         <!--About section-->
-        <div class="about">
+        <div class="about" id="about">
             <h2>About Me</h2>
             <div class="mission">
                 <p>My mission is to build up <em style="color: #E53755;">creative design</em>  and <em style="color: #E53755;">user-centered applications</em> .</p>
@@ -60,7 +58,7 @@
         </div>
 
         <!--skills section-->
-        <div class="skills-section">
+        <div class="skills-section" id="skills">
             <h2>Skills</h2>
             <div class="skills">
                 <div class="front-end">
@@ -92,7 +90,7 @@
     </main>
 
     <!--footer section-->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="address">
             <ul>
                 <li><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;43844-00100 Nairobi, Kenya</li>
