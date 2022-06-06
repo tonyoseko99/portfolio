@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background: #06091D;
-    background-image: url("./Assets/images/mathias-reding-3P9QzN5uF5Q-unsplash\ \(1\).jpg");
+    background-image: url(../images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,12 +15,12 @@ body{
 
 header{
     margin: 0 200px 0 700px;
+    
 }
 
 .navbar{
     width: 850px;
     height: 100px;
-    
 }
 
 header .navbar > ul{
