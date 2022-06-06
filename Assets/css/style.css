@@ -208,6 +208,31 @@ main{
     font-size: 28px;
 }
 
+/* projects section */
+
+.projects{
+    color: white;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.projects h2{
+    text-align: center;
+}
+
+
+.projects .project-card{
+    width: 400px;
+    height: 100px;
+}
+
+
+/* footer section */
+
 .footer{
     background: #B5ADAD;
     padding: 30px 0 30px 120px;
