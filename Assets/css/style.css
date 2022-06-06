@@ -7,8 +7,8 @@ body{
     padding: 0;
     background: #06091D;
     background-image: url(../images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 /* header section */
@@ -120,6 +120,7 @@ header #download-cv > button > a:hover{
     font-style: italic;
     color: #E53755;
     font-weight: lighter;
+    text-shadow: 0 0 3px #FF0000;
 }
 
 
@@ -241,8 +242,8 @@ main{
     padding: 15px 10px;
     border: 1px solid darkgray;
     border-radius: 10px;
-    margin: 0 10px;
-    box-shadow:black;
+    margin: 0 20px;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
 .project-card img{
@@ -287,7 +288,7 @@ main{
 /* footer section */
 
 .footer{
-    background: #B5ADAD;
+    background-image: linear-gradient(-180deg, grey, white);
     padding: 30px 0 30px 120px;
     display: flex;
     flex-direction: row;
