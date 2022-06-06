@@ -1,10 +1,14 @@
 *{
     font-family: 'Gentium Plus', serif;
+   
 }
 body{
     margin: 0;
     padding: 0;
     background: #06091D;
+    background-image: url(/Assets/images/nick-nice-gPm8h3DS1s4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* header section */
@@ -71,6 +75,7 @@ header #download-cv > button > a:hover{
     align-items: center;
     height: 100vh;
     padding: 10px 0;
+    
 }
 
 .profile img{
@@ -78,6 +83,14 @@ header #download-cv > button > a:hover{
     height: 600px;
     padding: 0 20px 0 0;
     border-radius: 300px;
+}
+
+.profile img:hover{
+    width: 600px;
+    height: 600px;
+    padding: 0 20px 0 0;
+    border-radius: 300px;
+    opacity: 0.5;
 }
 
 .profile .header-info{
@@ -121,11 +134,15 @@ main{
     color: white;
     padding-top: 100px;
     margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about h2{
     font-size: 50px;
     color: #B5ADAD;
+    text-align: center;
 }
 
 .about .mission{
@@ -133,6 +150,7 @@ main{
     height: 189px;
     font-size: 40px;
     padding: 0 0 90px 0;
+    text-align: center;
 }
 
 .about .mission-info{
@@ -161,18 +179,24 @@ main{
 /* skills section */
 .skills-section{
     color: white;
-    height: 70vh;
+    height: 100vh;
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 .skills-section h2{
     font-size: 40px;
     color: #B5ADAD;
+    text-align: center;
 }
 
 .skills{
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 .skills h2{

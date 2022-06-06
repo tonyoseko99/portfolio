@@ -34,3 +34,10 @@ $(document).ready(function(){
         $(this).css("opacity", "0.5");
     });
 });
+
+// contact form functionality
+$(document).ready(function(){
+  $("form").submit(function(){
+    alert("Submitted");
+  });
+});
