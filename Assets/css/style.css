@@ -230,6 +230,7 @@ main{
 
 .project-cards{
     display: flex;
+    flex-wrap:inherit;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -242,7 +243,7 @@ main{
     padding: 15px 10px;
     border: 1px solid darkgray;
     border-radius: 10px;
-    margin: 0 20px;
+    margin: 10px 20px;
     box-shadow: 5px 5px 5px 6px black;
 }
 
