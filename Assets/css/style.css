@@ -321,6 +321,14 @@ main{
     list-style-type: none;
 }
 
+.footer ul li > a{
+    color: #06091D;
+}
+
+.footer ul li > a:hover{
+    color: #E53755;
+}
+
 .footer .social{
     margin: 0 0 0 50px;
 }
@@ -328,6 +336,10 @@ main{
 .footer .social > a{
     padding: 10px;
     color: black;
+}
+
+.footer .social > a:hover{
+    color: #00acee;
 }
 
 .footer .contact h2{
