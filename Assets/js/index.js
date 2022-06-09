@@ -1,13 +1,6 @@
 // fixed top navbar
 document.getElementById("navbar").style.position = "fixed";
 
-// javascript download button
-$(document).ready(function(){
-    $("#download").click(function(){
-      alert("Document not found. Please come back later.");
-    });
-  });
-
 //menu bar in uppercase
 $(document).ready(function(){
     $(".navbar-li").hover(function(){
