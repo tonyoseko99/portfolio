@@ -1,16 +1,6 @@
 // fixed top navbar
 document.getElementById("navbar").style.position = "fixed";
 
-//menu bar in uppercase
-$(document).ready(function(){
-    $(".navbar-li").hover(function(){
-      $(this).css("text-transform", "uppercase");
-      }, function(){
-      $(this).css("text-transform", "none");
-    });
-  });
-
-
 // change the opacity of the cards on hover
 $(document).ready(function(){
     $("#p1").hover(function(){
