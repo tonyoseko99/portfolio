@@ -28,9 +28,21 @@ $(document).ready(function(){
     });
 });
 
-// contact form functionality
-$(document).ready(function(){
-  $("form").submit(function(){
-    alert("Submitted");
-  });
-});
+// form validation and clearing
+function formValidation(event){
+  event.preventDefault();
+
+  let firstName = document.getElementById("fname").value;
+  let lastName = document.getElementById("lname").value;
+  let form = document.getElementById("form")
+
+  localStorage.setItem("first_name", firstName);
+  localStorage.setItem("last_name", lastName);
+
+  function redirect(){
+    alert("message successfully sent")
+      window.location.href="#profile"
+  }
+  redirect()
+  form.reset();
+}
