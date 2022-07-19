@@ -2,6 +2,10 @@
     font-family: 'Gentium Plus', serif;
    
 }
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
