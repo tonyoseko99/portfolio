@@ -20,9 +20,9 @@ A site designed to showcase my skills, goals, and accomplishments.
   * JavaScript
 
 ## Installation
-  clone the repository from Github using the "git clone <url> command"
-  open the project on the local machine
-  Run the index.html file on the browser of your choice
+- clone the repository from Github using the "git clone <url> command"
+- open the project on the local machine
+- Run the index.html file on the browser of your choice
   
 ## Contact
   * Reach out to tonnyseko@gmail.com for requests to contribute on the project
@@ -36,7 +36,7 @@ Please make sure to update tests as appropriate.
 [MIT](https://choosealicense.com/licenses/mit/)
   
 ## Acknowledgements
-  Font Awesome
-  Google Fonts
-  Flat Icon
-  VS Code editor
+- Font Awesome
+- Google Fonts
+- Flat Icon
+- VS Code editor
